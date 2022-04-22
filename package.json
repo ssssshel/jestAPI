@@ -4,10 +4,11 @@
   "description": "JestAPI with Express.JS",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "test:coverage": "jest --coverage"
   },
   "jest":{
-    "testEnviroment": "node"
+    "testEnvironment": "node"
   },
   "keywords": [
     "jest",
